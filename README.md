@@ -50,3 +50,8 @@ Start the server
 
 Yes! But don't forget to add your own magic to it ✨.
 
+---
+
+###### Don't forget to check out other repositories and projects. Your feedback, suggestions, and collaborations are always welcome!
+
+###### Thank you for visiting my GitHub profile. Let's create something amazing together! 💻🫱🏻‍🫲🏻
