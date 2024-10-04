@@ -11,17 +11,17 @@ import "aos/dist/aos.css";
 const features = [
   {
     name: "Age:",
-    description: "20 years old",
+    description: "23 years old",
     icon: CalendarIcon,
   },
   {
     name: "Email:",
-    description: "name@example.com",
+    description: "niyatinehal67@gmail.com",
     icon: AtSymbolIcon,
   },
   {
     name: "Location:",
-    description: "Gujarat, India",
+    description: "Bengaluru, India",
     icon: MapPinIcon,
   },
 ];
@@ -44,7 +44,7 @@ export default function About() {
                 About Me
               </p>
               <p className="mt-6 text-lg leading-8" data-aos="fade-right">
-                Hello, I'm Sharma Aryan, a driven Software Developer based in India. With a profound commitment to fostering technical education, I specialize in crafting immersive learning experiences that emphasize hands-on application development. My journey in software development is not just about writing code; it's about inspiring and empowering others to embark on their own technological adventures.Drawing from my extensive experience, I've honed my skills in designing interactive learning modules and engaging workshops that cater to diverse audiences. Whether it's diving into the intricacies of programming languages or exploring cutting-edge technologies, I'm dedicated to cultivating an environment where individuals can thrive and grow their expertise. Beyond my role as a developer, I see myself as a facilitator of knowledge, guiding aspiring technologists on their path to success.
+                Hello, I'm Niyati Nehal, a driven Software Developer based in India. With a profound commitment to fostering technical education, I specialize in crafting immersive learning experiences that emphasize hands-on application development. My journey in software development is not just about writing code; it's about inspiring and empowering others to embark on their own technological adventures.Drawing from my extensive experience, I've honed my skills in designing interactive learning modules and engaging workshops that cater to diverse audiences. Whether it's diving into the intricacies of programming languages or exploring cutting-edge technologies, I'm dedicated to cultivating an environment where individuals can thrive and grow their expertise. Beyond my role as a developer, I see myself as a facilitator of knowledge, guiding aspiring technologists on their path to success.
               </p>
             </div>
           </div>
@@ -73,13 +73,13 @@ export default function About() {
                   Experience
                 </h2>
                 <p className="mt-3 list-item list-inside">
-                  Computer Science graduate with expertise in algorithms.
+                  Computer Science graduate with expertise in Frontend.
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Diverse experience in web and mobile development.
+                  Diverse experience in web development.
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  Leads coding workshops and mentors aspiring developers.
+                  Mentors aspiring developers.
                 </p>
               </div>
               <div
@@ -94,13 +94,13 @@ export default function About() {
                   Education
                 </h2>
                 <p className="mt-3 list-item list-inside">
-                  COS-Project: Developed web apps with HTML, CSS, and JavaScript.
+                K-verse Social Media: Developed web apps with HTML, CSS, and JavaScript.
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  TheMellowCoder: Contributed to MERN stack project for code ideation.
+                Bookshala E-commerce website: Contributed to MERN stack project.
                 </p>
                 <p className="mt-3 list-item list-inside">
-                  VibeVault: Co-created user-friendly shopping platform with C#.
+                  Minion talks: A fun website that lets you talk like minions made with react and api integration.
                 </p>
               </div>
             </div>

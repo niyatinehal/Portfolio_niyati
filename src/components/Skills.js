@@ -37,11 +37,6 @@ const backend = [
     icon: CheckCircleIcon,
   },
   {
-    name: "Python",
-    value: 75,
-    icon: CheckCircleIcon,
-  },
-  {
     name: "MySQL",
     value: 50,
     icon: CheckCircleIcon,
@@ -55,12 +50,7 @@ const backend = [
     name: "MongoDB",
     value: 40,
     icon: CheckCircleIcon,
-  },
-  {
-    name: "GraphQL",
-    value: 30,
-    icon: CheckCircleIcon,
-  },
+  }
 ];
 
 export default function Skills() {

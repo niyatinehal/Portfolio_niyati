@@ -34,10 +34,10 @@ export default function Footer() {
             </svg>
           </button>
         </div>
-        <p className="mt-3">
+        {/* <p className="mt-3">
           Created with ❤️ by <span className="font-bold">Sharma Aryan</span>
         </p>
-        <p>Copyright © 2024 React Portfolio Template by Sam(Sharma Aryan M). All Rights Reserved</p>
+        <p>Copyright © 2024 React Portfolio Template by Sam(Sharma Aryan M). All Rights Reserved</p> */}
       </div>
     );
   }
