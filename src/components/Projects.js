@@ -5,41 +5,41 @@ import "aos/dist/aos.css";
 const projects = [
   {
     id: 1,
-    name: "The Mellow Coder",
-    href: "https://themellowcoder.vercel.app",
+    name: "K-VERSE - SOCIAL MEDIA WEBSITE",
+    href: "https://k-verse-connect.netlify.app/",
     imageSrc:
-      "https://fastly.picsum.photos/id/23/3887/4899.jpg?hmac=2fo1Y0AgEkeL2juaEBqKPbnEKm_5Mp0M2nuaVERE6eE",
-    used: "MongoDB, ReactJs",
-    description: "A restaurant website.",
+      "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
+    used: " ReactJs, javascript, Node.js",
+    description: "A social media website.",
   },
   {
     id: 2,
-    name: "Vibevault",
-    href: "https://github.com/Aryan-Who-Codes/VibeVault_Beta",
+    name: "Bookshala",
+    href: "https://bookshalaa-library.netlify.app/",
     imageSrc:
-      "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
-    used: "C#, javaScript",
-    description: "An online shopping website.",
+      "https://149795890.v2.pressablecdn.com/wp-content/uploads/2022/10/BatteryParkBE_14.png",
+    used: "React.js, javaScript",
+    description: "An online book shopping website.",
   },
   {
     id: 3,
-    name: "Imaginify",
-    href: "https://sam-imaginify.vercel.app",
+    name: "Talk banana",
+    href: "https://niyati-talk-banana.netlify.app/",
     imageSrc:
-      "https://fastly.picsum.photos/id/447/1280/853.jpg?hmac=4DUUCOsHRIoYbNrPRYEUHOW7wCjM7TROrTrYFivtdPw",
-
-    used: "NextJS, Shadcn-UI",
-    description: "An Image Processing website.",
+      "https://imgs.search.brave.com/zEB7s_Tcg7VN4hV0oq3vsHbdtpOpejxMR2E9BQ5A7O0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvbWluaW9uLXBp/Y3R1cmVzLXRwZ3R5/NjU4dGpmNWNhaTcu/anBn",
+    used: "TailwindCSS, React.js, API calls",
+    description: "A personal portfolio website.",
   },
   {
     id: 4,
-    name: "React Portfolio",
-    href: "https://sam-folio.vercel.app",
+    name: "My Portfolio",
+    href: "https://niyati-talk-banana.netlify.app/",
     imageSrc:
-      "https://fastly.picsum.photos/id/366/4000/3000.jpg?hmac=zphhHOH9ofToN2jNHd8z-nc98NrBd8y2okWXEXetLDg",
-    used: "ThreeJS, TailwindCSS",
+      "https://imgs.search.brave.com/Gdgw6Ki6SWkjnLLa_mB3Zv9-XtGmjO2qjMbMC11EUco/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTc1/NDMxOTQ3L3Bob3Rv/L3BvcnRmb2xpby5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/OXBiMEFxY1dxaktJ/MmJKSl9wUmlkWnli/NWNLeHBkU1ZCNmRn/WU9wREx3ST0",
+    used: "TailwindCSS, React.js, API calls",
     description: "A personal portfolio website.",
   },
+  
 ];
 
 export default function Projects() {
@@ -53,15 +53,15 @@ export default function Projects() {
         <p className="mt-2 text-4xl font-bold tracking-tight sm:text-6xl">
           Projects
         </p>
-        <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+        <div className="mt-10 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
           {projects.map((project) => (
             <div
-              key={project.id}
-              className="group relative ring-2 ring-base-300 bg-base-200 rounded-2xl shadow-xl"
-              data-aos="flip-left"
+            key={project.id}
+            className="group relative ring-2 ring-base-300 bg-base-200 rounded-2xl shadow-xl p-4"
+            data-aos="flip-left"
             >
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md lg:aspect-none group-hover:brightness-75 duration-300 delay-100 lg:h-80 rounded-t-2xl ">
-                <img
+              <img
                   src={project.imageSrc}
                   alt={project.name}
                   className="h-full w-full object-cover object-center lg:h-full lg:w-full"

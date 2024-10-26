@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/20/solid";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import profileImage from '../PROFILE.png'
 const features = [
   {
     name: "Age:",
@@ -39,7 +40,7 @@ export default function About() {
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
-              <h2 className="text-lg leading-7"><a href="https://sam-folio.vercel.app">Get to know more</a></h2>
+              <h2 className="text-lg leading-7">Get to know more</h2>
               <p className="mt-2 text-4xl font-bold tracking-tight sm:text-6xl">
                 About Me
               </p>
@@ -54,8 +55,8 @@ export default function About() {
           data-aos="fade-left"
         >
           <img
-            className="w-[38rem] ring-2 ring-base-300 max-w-none rounded-xl shadow-xl sm:w-[57rem]"
-            src="https://fastly.picsum.photos/id/473/5000/3333.jpg?hmac=OrrE0aUqLbLCJ9PAlSn0dIRHjOnuuuev9IjuO3PGZf8 "
+            className="w-[25 rem] h-[40.75rem] ring-2 ring-base-300 max-w-none rounded-xl shadow-xl sm:w-[25rem]"
+            src={profileImage}
             alt="Person"
           />
         </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Dialog } from "@headlessui/react";
-import pfp from "../avatar2.png";
+import pfp from "../Avatar.png";
 import {
   Bars3Icon,
   XMarkIcon,
@@ -147,7 +147,7 @@ export default function Hero() {
             <div className="grid justify-center items-center">
               <img
                 src={pfp}
-                alt="Sharma Aryan"
+                alt="Niyati Nehal"
                 className="w-72 rounded-full drop-shadow-2xl"
               />
             </div>
