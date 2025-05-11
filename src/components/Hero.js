@@ -70,6 +70,7 @@ export default function Hero() {
               </Link>
               </div>
             ))}
+            <a href="https://spotify-backend-higi.onrender.com/spotify/login">Connect Spotify</a>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <label className="swap swap-rotate">
